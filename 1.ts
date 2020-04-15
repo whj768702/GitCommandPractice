@@ -1,7 +1,7 @@
-function test(value: string): string{
-    if (value === 'abc') {
-        return 'abc';
-    } else {
-        return 'nothing';
-    }
+
+function test(value: number): number{
+    if (value === 123) {
+        return 123;
+    }else {
+        return 456;
 }
