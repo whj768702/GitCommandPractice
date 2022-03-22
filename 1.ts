@@ -6,8 +6,8 @@ function test(value: string): string {
     }
 }
 
-function add() {
-    return void 0;
+function add(a: number, b: number): number {
+    return a + b;
 }
 
 function deleteIndex() {
